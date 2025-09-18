@@ -13,7 +13,7 @@ st.markdown(
     "This application is a Streamlit dashboard that can analyse motor vehicle collison in NYC")
 
 
-@st.cache(persist=True)
+@st.cache_data
 def load_data(nrows):
     data = pd.read_csv(DATE_URL, nrows=nrows, parse_dates=[
                        ['CRASH_DATE', 'CRASH_TIME']])

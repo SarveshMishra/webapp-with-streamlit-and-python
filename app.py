@@ -5,7 +5,7 @@ import pydeck as pdk
 import plotly.express as px
 
 DATE_URL = (
-    "/home/rhyme/Desktop/Project/Motor_Vehicle_Collisions_-_Crashes.csv"
+    "./Motor_Vehicle_Collisions_-_Crashes.csv"
 )
 
 st.title("Motor Motor_Vehicle_Collisions in NYC")

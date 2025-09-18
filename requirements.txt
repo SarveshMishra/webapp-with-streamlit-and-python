@@ -1,2 +1,5 @@
 streamlit
 plotly
+pydeck
+numpy
+pandas
